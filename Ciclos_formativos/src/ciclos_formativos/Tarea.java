@@ -1,16 +1,27 @@
+
+/**
+ *
+ * @author gabri
+ */
 public class Tarea {
 
     private String descripcion;
 
     private double calificacion;
     
-        public Tarea (String descripcion, double calificacion){
+    /**
+     *
+     * @param descripcion
+     * @param calificacion
+     */
+    public Tarea (String descripcion, double calificacion){
         this.descripcion = descripcion;
         this.calificacion = calificacion;
     }
 
-        
-        
+    /**
+     *
+     */
     public void calificar() {
     }
 

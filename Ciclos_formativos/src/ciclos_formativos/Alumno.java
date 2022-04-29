@@ -1,20 +1,44 @@
+
+/**
+ *
+ * @author gabri
+ */
 public class Alumno extends Persona {
 
     private double notaMedia;
 
     private Modulo[] matricula;
     
+    /**
+     *
+     * @param nombre
+     * @param apellidos
+     * @param direccion
+     * @param telefono
+     * @param alias
+     * @param email
+     */
     public Alumno(String nombre, String apellidos, String direccion, int telefono, String alias, String email) {
     super(nombre, apellidos, direccion, telefono, alias, email);
     }
 
+    /**
+     *
+     */
     public void emitirCertificado() {
     }
 
+    /**
+     *
+     * @return
+     */
     public double calcularNotaMedia() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    /**
+     *
+     */
     public void matricular() {
     }
 

@@ -1,3 +1,8 @@
+
+/**
+ *
+ * @author gabri
+ */
 public class Ciclo {
 
     private String nombre;
@@ -10,6 +15,13 @@ public class Ciclo {
 
     private Competencia[] listaCompetencias;
 
+    /**
+     *
+     * @param nombre
+     * @param descripcion
+     * @param horas
+     * @param year
+     */
     public Ciclo(String nombre, String descripcion, int horas, int year) {
 
         this.nombre = nombre;

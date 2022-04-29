@@ -1,3 +1,8 @@
+
+/**
+ *
+ * @author gabri
+ */
 public class Modulo {
 
     private String nombre;
@@ -14,11 +19,15 @@ public class Modulo {
 
     private int horas;
 
-    
-    
+    /**
+     *
+     */
     public void contratarProfesor() {
     }
 
+    /**
+     *
+     */
     public void matriculaAlumno() {
     }
 
